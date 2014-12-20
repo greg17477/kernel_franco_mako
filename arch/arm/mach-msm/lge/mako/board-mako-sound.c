@@ -31,15 +31,15 @@
 
 #define TPA2028D_ADDRESS (0xB0>>1)
 #define MSM_AMP_EN (PM8921_GPIO_PM_TO_SYS(19))
-#define AGC_COMPRESIION_RATE        0
+#define AGC_COMPRESIION_RATE        1
 #define AGC_OUTPUT_LIMITER_DISABLE  1
 /* AGC_FIXED_GAIN  on the amp datasheet default value is 6 */
-#define AGC_FIXED_GAIN              15
+#define AGC_FIXED_GAIN              20
 /* AKT_TIME on the amp datasheet default value is 5 */
-#define AKT_TIME					6
+#define AKT_TIME					5
 /* REL_TIME on the amp datasheet default value is 11 */
-#define REL_TIME					13
-#define MAX_GAIN					12
+#define REL_TIME					10
+#define MAX_GAIN					20
 
 
 #define GPIO_EAR_MIC_BIAS_EN        PM8921_GPIO_PM_TO_SYS(20)
